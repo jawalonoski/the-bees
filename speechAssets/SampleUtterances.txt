@@ -1,0 +1,6 @@
+PollenIntent the pollen forecast
+PollenIntent what the pollen forecast is
+PollenIntent what the pollen forecast is for {zero one four six nine|zipCode}
+LocationIntent the zip code is {zero one four six nine|zipCode}
+LocationIntent my zip code is {zero one four six nine|zipCode}
+LocationIntent {zero one four six nine|zipCode}

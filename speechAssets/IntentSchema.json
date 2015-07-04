@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "PollenIntent",
+      "slots": [
+        {
+        "name": "zipCode",
+        "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "LocationIntent",
+      "slots": [
+        {
+          "name": "zipCode",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}
