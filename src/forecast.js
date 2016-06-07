@@ -1,5 +1,5 @@
 'use strict';
-var http = require("http");
+var https = require("https");
 var cheerio = require("cheerio");
 
 var pollenLevels = {
@@ -31,7 +31,7 @@ var forecast = (function () {
         path: "/DisplayPollen.asp?Zipcode="+location
       };
       var str = '';
-      http.request(options, function(response) {
+      https.request(options, function(response) {
         //another chunk of data has been recieved, so append it to `str`
         response.on('data', function(chunk){
           str += chunk;
